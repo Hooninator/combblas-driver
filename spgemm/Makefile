@@ -11,10 +11,10 @@ SOURCES = CombBLASSpGEMM.cpp
 # Object files
 OBJECTS = $(SOURCES:.cpp=.o)
 
-INCLUDE = -I$(HOME)/CombBLAS/install/include  \
+INCLUDE = -I../CombBLAS/install/include  \
 
 
-LINK = -L$(HOME)/CombBLAS/install/lib -lCombBLAS -lGraphGenlib -lUsortlib\
+LINK = -L../CombBLAS/install/lib -lCombBLAS -lGraphGenlib -lUsortlib\
 
 # Default target
 all: $(TARGET)
