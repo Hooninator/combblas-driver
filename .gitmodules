@@ -1,0 +1,4 @@
+[submodule "CombBLAS"]
+	path = CombBLAS
+	url = https://github.com/Hooninator/CombBLAS.git
+	branch = autotuning
